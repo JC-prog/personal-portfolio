@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode Palette (Premium Slate/White) */
+    --bg-background: #F8FAFC;
+    /* Slate 50 */
+    --bg-surface: #FFFFFF;
+    /* White */
+    --bg-surface-highlight: #F1F5F9;
+    /* Slate 100 */
+    --color-primary: #3B82F6;
+    /* Blue 500 */
+    --color-secondary: #8B5CF6;
+    /* Violet 500 */
+    --color-accent: #10B981;
+    /* Emerald 500 */
+    --text-primary: #1E293B;
+    /* Slate 800 */
+    --text-secondary: #64748B;
+    /* Slate 500 */
+    --text-muted: #94A3B8;
+    /* Slate 400 */
+  }
+
+  .dark {
+    /* Dark Mode Palette (Premium Zinc/Black) */
+    --bg-background: #0a0a0a;
+    --bg-surface: #121212;
+    --bg-surface-highlight: #1E1E1E;
+    --color-primary: #3B82F6;
+    --color-secondary: #8B5CF6;
+    --color-accent: #10B981;
+    --text-primary: #EDEDED;
+    --text-secondary: #A1A1AA;
+    --text-muted: #52525B;
+  }
+
+  body {
+    @apply bg-background text-text-primary antialiased font-sans overflow-x-hidden transition-colors duration-300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-md border border-black/5;
+    background-color: color-mix(in srgb, #ffffff, transparent 30%);
+  }
+
+  .dark .glass {
+    @apply border-white/10;
+    /* dark:bg-surface/30 where surface is #121212 */
+    background-color: color-mix(in srgb, var(--bg-surface), transparent 70%);
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md border border-black/5 hover:border-black/10 transition-colors duration-300;
+    /* bg-white/50 */
+    background-color: color-mix(in srgb, #ffffff, transparent 50%);
+  }
+
+  .dark .glass-card {
+    @apply border-white/5 hover:border-white/10;
+    /* dark:bg-surface/50 */
+    background-color: color-mix(in srgb, var(--bg-surface), transparent 50%);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}
