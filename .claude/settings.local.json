@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm run build)",
+      "Bash(python3 -c \"import docx; doc = docx.Document\\(''/Users/jeffreychong/Projects/personal-portfolio/Software Eng CV \\(1\\).docx''\\); print\\(''\\\\n''.join\\([p.text for p in doc.paragraphs]\\)\\)\")"
+    ]
+  }
+}
