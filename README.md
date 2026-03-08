@@ -28,6 +28,7 @@ I'm currently pursuing an **MTech in Artificial Intelligence Systems at NUS**, a
 | Project | Stack | Description |
 |---|---|---|
 | [PedSense-AI](https://github.com/JC-prog/pedsense-ai) | PyTorch · YOLO · OpenCV | Computer vision framework for pedestrian crossing intent prediction |
+| [BidNow](https://github.com/JC-prog/BidNow) | React · TypeScript · Spring Boot · MySQL · AWS | Full-stack auction platform with real-time bidding and a collaborative filtering recommendation engine |
 | [F1 Regulation RAG](https://github.com/JC-prog/F1-Regs-Rag) | LangChain · LangGraph · Gemini | Metadata-aware RAG system over 100+ pages of FIA regulations |
 | [Thrive — Health Chatbot](https://github.com/JC-prog/Thrive-Personalized-Health-Chatbot) | React · FastAPI · OpenAI · Docker | Full-stack health risk assessment app with LLM-powered chatbot |
 | [VF Extractor](https://github.com/JC-prog/vf-extractor) | Python · PaddleOCR · Streamlit | Clinical OCR tool for Humphrey Visual Field medical reports |
@@ -42,7 +43,7 @@ I'm currently pursuing an **MTech in Artificial Intelligence Systems at NUS**, a
 
 **AI/ML:** PyTorch · TensorFlow · Scikit-learn · LangChain · LangGraph · OpenCV · MediaPipe · PaddleOCR · Whisper · RAG · LLM Integration
 
-**Web & Backend:** React · Angular · FastAPI · Django · Node.js · .NET
+**Web & Backend:** React · Angular · FastAPI · Django · Node.js · Spring Boot · .NET
 
 **Infra & DevOps:** Docker · AWS (EC2, S3, RDS) · Redis · GitLab CI/CD · Azure DevOps · Prometheus · Grafana
 

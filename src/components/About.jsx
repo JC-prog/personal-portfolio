@@ -27,13 +27,13 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
             <p>
-              I'm a software engineer with over three years of professional experience, currently working as a Full Stack Engineer at Tan Tock Seng Hospital — building production-grade AI tools for clinical environments. My work spans computer vision systems for pose monitoring, OCR pipelines for medical document extraction, and overhauling digital health applications on AWS.
+              I'm a software engineer with over three years of professional experience, currently working as a Full Stack Engineer at Tan Tock Seng Hospital, building production-grade AI tools for clinical environments. My work spans computer vision systems for pose monitoring, OCR pipelines for medical document extraction, and overhauling digital health applications on AWS.
             </p>
             <p>
               I started my career as a Software Engineer at Rovisys Asia, where I built and maintained large-scale analytics platforms and led MES solutions for semiconductor manufacturing clients. That experience gave me a solid foundation in enterprise software, system design, and cross-functional delivery.
             </p>
             <p>
-              My path into tech is non-traditional — I studied Chemical Engineering at SIT before pivoting to software development. Since then I've been continuously deepening my AI knowledge through a part-time BSc in Computer Science (Big Data) at UoW and, currently, an MTech in Artificial Intelligence Systems at NUS.
+              My path into tech is non-traditional. I studied Chemical Engineering at SIT before pivoting to software development. Since then I've been continuously deepening my AI knowledge through a part-time BSc in Computer Science (Big Data) at UoW and, currently, an MTech in Artificial Intelligence Systems at NUS.
             </p>
             <p>
               I enjoy experimenting with new ideas and technologies, and care about building things that are both technically sound and genuinely useful.

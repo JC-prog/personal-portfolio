@@ -39,19 +39,19 @@ const experience = [
 
 const education = [
   {
-    degree: 'MTech in Artificial Intelligence Systems (Part-time)',
+    degree: 'MTech in Artificial Intelligence Systems',
     institution: 'National University of Singapore',
     period: 'Jan 2025 – Dec 2026',
   },
   {
-    degree: 'BSc Computer Science — Big Data (Part-time)',
+    degree: 'BSc Computer Science - Big Data',
     institution: 'University of Wollongong',
     period: 'Apr 2022 – Sep 2024',
   },
   {
     degree: 'BEng Chemical Engineering',
     institution: 'Singapore Institute of Technology',
-    period: '2018 – 2021',
+    period: 'Sep 2018 – Sep 2021',
   },
 ]
 
@@ -99,7 +99,7 @@ export default function Experience() {
                   <ul className="space-y-1.5">
                     {item.points.map((pt, j) => (
                       <li key={j} className="text-gray-500 text-sm leading-relaxed flex gap-2">
-                        <span className="shrink-0 text-gray-300 mt-1">—</span>
+                        <span className="shrink-0 text-gray-400 mt-0.5">•</span>
                         {pt}
                       </li>
                     ))}

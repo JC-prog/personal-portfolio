@@ -13,6 +13,17 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'BidNow',
+    description:
+      'Full-stack online auction platform with real-time bidding, watchlists, item trading, and a SlopeOne collaborative filtering recommendation engine. Built as a Final Year Project.',
+    tags: ['React', 'TypeScript', 'Java', 'Spring Boot', 'MySQL', 'AWS', 'Full-Stack'],
+    category: 'Web',
+    color: 'from-violet-500 to-purple-700',
+    icon: 'web',
+    github: 'https://github.com/JC-prog/BidNow',
+  },
+  {
+    id: 9,
     title: 'Real Estate Web App',
     description:
       'Full-stack property marketplace with multi-role support (admin, agent, buyer, seller), property listings, saved searches, mortgage calculator, and agent ratings.',

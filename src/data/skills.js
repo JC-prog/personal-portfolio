@@ -31,6 +31,7 @@ export const skillGroups = [
       { name: 'FastAPI', icon: 'fastapi.svg' },
       { name: 'Django', icon: 'django.svg' },
       { name: 'Node.js', icon: 'nodejs.svg' },
+      { name: 'Spring Boot', icon: 'springboot.svg' },
       { name: '.NET', icon: 'dotnet.svg' },
     ],
   },
@@ -51,8 +52,8 @@ export const skillGroups = [
     skills: [
       { name: 'Claude Code', icon: 'claude.svg' },
       { name: 'ChatGPT', icon: 'openai.svg' },
-      { name: 'Gemini', icon: 'gemini.svg' },
-      { name: 'Antigravity', icon: null },
+      { name: 'Gemini', icon: 'gemini.png' },
+      { name: 'Antigravity', icon: 'antigravity.svg' },
     ],
   },
 ]
