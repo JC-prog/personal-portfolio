@@ -92,13 +92,8 @@ export default function Hero() {
           {/* Photo — right, stretches to match text above buttons */}
           <div className="shrink-0 flex flex-col items-center lg:w-80">
             <div className="w-56 h-56 sm:w-64 sm:h-64 lg:w-full lg:h-full rounded-2xl overflow-hidden border border-gray-200 shadow-lg bg-gray-100">
-              {/*
-                To swap in your real photo:
-                1. Drop your image into public/ (e.g. public/photo.jpg)
-                2. Change src below to "/photo.jpg"
-              */}
               <img
-                src="/avatar-placeholder.svg"
+                src="/personal-photo.png"
                 alt="Jeffrey Chong"
                 className="w-full h-full object-cover"
               />
