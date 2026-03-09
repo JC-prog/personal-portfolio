@@ -1,6 +1,6 @@
 # Jeffrey Chong — Personal Portfolio
 
-> **Live site:** _coming soon_
+> **Live site:** [Link](https://jeffrey-chong-dev.vercel.app/)
 
 A clean, fast personal portfolio built with React + Vite + Tailwind CSS — showcasing my work across AI engineering, full-stack development, and production systems.
 
