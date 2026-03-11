@@ -30,6 +30,7 @@ export const skillGroups = [
       { name: 'Angular', icon: 'angular.svg' },
       { name: 'FastAPI', icon: 'fastapi.svg' },
       { name: 'Django', icon: 'django.svg' },
+      { name: 'Flask', icon: 'flask.svg' },
       { name: 'Node.js', icon: 'nodejs.svg' },
       { name: 'Spring Boot', icon: 'springboot.svg' },
       { name: '.NET', icon: 'dotnet.svg' },
@@ -45,6 +46,14 @@ export const skillGroups = [
       { name: 'Azure DevOps', icon: 'azuredevops.svg' },
       { name: 'Grafana', icon: 'grafana.svg' },
       { name: 'Prometheus', icon: 'prometheus.svg' },
+    ],
+  },
+  {
+    label: 'Design Tools',
+    skills: [
+      { name: 'Figma', icon: 'figma.svg' },
+      { name: 'DaVinci Resolve', icon: 'davinciresolve.svg' },
+      { name: 'GIMP', icon: 'gimp.svg' },
     ],
   },
   {
