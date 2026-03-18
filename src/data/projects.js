@@ -46,14 +46,14 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'VF Extractor',
+    title: 'Visual Field Insight',
     description:
-      'Python package for parsing Humphrey Visual Field medical reports used in glaucoma diagnosis. Includes a Streamlit web UI and CLI for batch processing across platforms.',
-    tags: ['Healthcare', 'Python', 'Streamlit', 'PDF Parsing'],
+      'OCR-based extraction tool for Humphrey and VR Visual Field test reports used in glaucoma diagnosis. Supports single and batch processing with a Streamlit UI, debug mode, and offline PaddleOCR models.',
+    tags: ['Healthcare', 'Python', 'PaddleOCR', 'Streamlit', 'PDF Parsing'],
     category: 'AI/ML',
     color: 'from-teal-500 to-green-600',
     icon: 'health',
-    github: 'https://github.com/JC-prog/vf-extractor',
+    github: 'https://github.com/JC-prog/visual-field-insight',
   },
   {
     id: 5,
@@ -98,5 +98,16 @@ export const projects = [
     color: 'from-yellow-500 to-amber-600',
     icon: 'data',
     github: 'https://github.com/JC-prog/Credit-Score-Prediction',
+  },
+  {
+    id: 10,
+    title: 'Finax',
+    description:
+      'Autonomous multi-agent financial intelligence system that monitors markets, scores news sentiment with Gemini, and delivers daily digests via Telegram and email. Orchestrated with LangGraph.',
+    tags: ['Multi-Agent', 'LangGraph', 'Gemini', 'Python', 'Finance', 'LLM'],
+    category: 'AI/ML',
+    color: 'from-sky-500 to-blue-700',
+    icon: 'finance',
+    github: 'https://github.com/JC-prog/finax',
   },
 ]
