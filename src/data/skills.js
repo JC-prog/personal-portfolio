@@ -18,8 +18,12 @@ export const skillGroups = [
       { name: 'Scikit-learn', icon: 'scikitlearn.svg' },
       { name: 'OpenCV', icon: 'opencv.svg' },
       { name: 'LangChain', icon: 'langchain.svg' },
+      { name: 'LangGraph', icon: 'langgraph.svg' },
       { name: 'Streamlit', icon: 'streamlit.svg' },
+      { name: 'Gradio', icon: 'gradio.svg' },
+      { name: 'PaddleOCR', icon: null },
       { name: 'RAG / LLM', icon: null },
+      { name: 'Multi-Agent Systems', icon: null },
       { name: 'Computer Vision', icon: null },
     ],
   },
@@ -28,6 +32,7 @@ export const skillGroups = [
     skills: [
       { name: 'React', icon: 'react.svg' },
       { name: 'Angular', icon: 'angular.svg' },
+      { name: 'TailwindCSS', icon: 'tailwindcss.svg' },
       { name: 'FastAPI', icon: 'fastapi.svg' },
       { name: 'Django', icon: 'django.svg' },
       { name: 'Flask', icon: 'flask.svg' },
@@ -37,11 +42,18 @@ export const skillGroups = [
     ],
   },
   {
+    label: 'Databases',
+    skills: [
+      { name: 'MySQL', icon: 'mysql.svg' },
+      { name: 'PostgreSQL', icon: 'postgresql.svg' },
+      { name: 'Redis', icon: 'redis.svg' },
+    ],
+  },
+  {
     label: 'Infra & DevOps',
     skills: [
       { name: 'Docker', icon: 'docker.svg' },
       { name: 'AWS', icon: 'aws.svg' },
-      { name: 'Redis', icon: 'redis.svg' },
       { name: 'GitLab', icon: 'gitlab.svg' },
       { name: 'Azure DevOps', icon: 'azuredevops.svg' },
       { name: 'Grafana', icon: 'grafana.svg' },
