@@ -1,4 +1,4 @@
-# Jeffrey Chong — Personal Portfolio
+# Jeffrey Chong - Personal Portfolio
 
 > **Live site:** [Link](https://jeffrey-chong-dev.vercel.app/)
 

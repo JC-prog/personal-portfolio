@@ -100,6 +100,18 @@ export const projects = [
     github: 'https://github.com/JC-prog/Credit-Score-Prediction',
   },
   {
+    id: 11,
+    title: 'PCBInspect-AI',
+    description:
+      'Deep learning platform for automated PCB inspection using a two-stage pipeline: semantic segmentation (DeepLabV3 + ResNet-50) followed by object detection (YOLOv12, RT-DETR, RF-DETR) with SAHI tiling. Exports AOI recipes as JSON.',
+    tags: ['Computer Vision', 'PyTorch', 'YOLO', 'Segmentation', 'Gradio', 'Python', 'Research'],
+    category: 'AI/ML',
+    color: 'from-lime-500 to-green-700',
+    icon: 'cv',
+    github: 'https://github.com/JC-prog/pcb-inspect-ai',
+    huggingface: 'https://huggingface.co/JcProg/PCBInspect-AI',
+  },
+  {
     id: 10,
     title: 'Finax',
     description:
